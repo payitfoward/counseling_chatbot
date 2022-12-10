@@ -1,0 +1,504 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cookandroid.counselingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:10:5-79
+11-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:10:22-76
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:11:5-80
+12-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:11:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:12:5-81
+13-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:12:22-78
+14
+15    <queries>
+15-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:10:5-17:15
+16        <intent>
+16-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:11:9-13:18
+17            <action android:name="android.media.action.VIDEO_CAPTURE" />
+17-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:12:13-73
+17-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:12:21-70
+18        </intent>
+19        <intent>
+19-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:14:9-16:18
+20            <action android:name="android.media.action.IMAGE_CAPTURE" />
+20-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:15:13-73
+20-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:15:21-70
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:10:5-67
+24-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:10:22-64
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:25:5-68
+25-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:25:22-65
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+26-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:26:22-107
+27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+27-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\gajig\.gradle\caches\transforms-3\d9b6477490001e87f375dd8771f65321\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+27-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\gajig\.gradle\caches\transforms-3\d9b6477490001e87f375dd8771f65321\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+29-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+30
+31    <application
+31-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:6:5-26:19
+32        android:allowBackup="false"
+32-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:8:9-36
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.8.0] C:\Users\gajig\.gradle\caches\transforms-3\a0ae05cd61d445292bff2653a2e6032f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:9:9-65
+35        android:extractNativeLibs="false"
+36        android:fullBackupContent="false"
+36-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:10:9-42
+37        android:icon="@mipmap/ic_launcher"
+37-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:11:9-43
+38        android:label="@string/app_name"
+38-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:12:9-41
+39        android:networkSecurityConfig="@xml/network_security_config"
+39-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:7:9-69
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:13:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:14:9-35
+42        android:theme="@style/Theme.CounselingApp" >
+42-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:15:9-51
+43        <activity
+43-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:17:9-25:20
+44            android:name="com.cookandroid.counselingapp.MainActivity"
+44-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:18:13-41
+45            android:exported="true" >
+45-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:19:13-36
+46            <intent-filter>
+46-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:20:13-24:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:21:17-69
+47-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:21:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:23:17-77
+49-->C:\Users\gajig\AndroidStudioProjects\counselingApp\app\src\main\AndroidManifest.xml:23:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:15:9-23:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:16:13-67
+55            android:authorities="com.cookandroid.counselingapp.androidx-startup"
+55-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:17:13-68
+56            android:exported="false" >
+56-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:18:13-37
+57            <meta-data
+57-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:20:13-22:52
+58                android:name="io.getstream.chat.android.ui.common.ChatUIInitializer"
+58-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:21:17-85
+59                android:value="androidx.startup" />
+59-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:22:17-49
+60            <meta-data
+60-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:39:13-41:52
+61                android:name="com.getstream.sdk.chat.startup.ThreeTenInitializer"
+61-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:40:17-82
+62                android:value="androidx.startup" />
+62-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:41:17-49
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gajig\.gradle\caches\transforms-3\ecb9de568d7b97aeabd89c3ca055cad2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gajig\.gradle\caches\transforms-3\ecb9de568d7b97aeabd89c3ca055cad2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gajig\.gradle\caches\transforms-3\ecb9de568d7b97aeabd89c3ca055cad2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+67                android:name="androidx.work.WorkManagerInitializer"
+67-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+68                android:value="androidx.startup" />
+68-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gajig\.gradle\caches\transforms-3\a0b63cdaf3467da3345c4a9f260aac9d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gajig\.gradle\caches\transforms-3\a0b63cdaf3467da3345c4a9f260aac9d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gajig\.gradle\caches\transforms-3\a0b63cdaf3467da3345c4a9f260aac9d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+72        </provider>
+73
+74        <activity
+74-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:25:9-28:65
+75            android:name="io.getstream.chat.android.ui.gallery.AttachmentGalleryActivity"
+75-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:26:13-90
+76            android:exported="false"
+76-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:27:13-37
+77            android:theme="@style/StreamUi.AttachmentGallery" />
+77-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:28:13-62
+78        <activity
+78-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:29:9-32:61
+79            android:name="io.getstream.chat.android.ui.gallery.AttachmentMediaActivity"
+79-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:30:13-88
+80            android:exported="false"
+80-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:31:13-37
+81            android:theme="@style/StreamUi.MediaActivity" />
+81-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:32:13-58
+82        <activity
+82-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:33:9-36:66
+83            android:name="io.getstream.chat.android.ui.gallery.AttachmentActivity"
+83-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:34:13-83
+84            android:exported="false"
+84-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:35:13-37
+85            android:theme="@style/StreamUi.AttachmentActivity" />
+85-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:36:13-63
+86        <activity
+86-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:37:9-39:40
+87            android:name="io.getstream.chat.android.ui.channel.ChannelListActivity"
+87-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:38:13-84
+88            android:exported="false" />
+88-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:39:13-37
+89        <activity
+89-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:40:9-42:40
+90            android:name="io.getstream.chat.android.ui.message.MessageListActivity"
+90-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:41:13-84
+91            android:exported="false" />
+91-->[io.getstream:stream-chat-android-ui-components:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\63e2e2bb8666e9d0609b57bdc6127764\transformed\stream-chat-android-ui-components-5.0.2\AndroidManifest.xml:42:13-37
+92        <activity
+92-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:20:9-23:75
+93            android:name="com.getstream.sdk.chat.view.activity.AttachmentDocumentActivity"
+93-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:21:13-91
+94            android:exported="false"
+94-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:22:13-37
+95            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+95-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:23:13-72
+96
+97        <provider
+97-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:25:9-33:20
+98            android:name="com.getstream.sdk.chat.StreamFileProvider"
+98-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:26:13-69
+99            android:authorities="com.cookandroid.counselingapp.streamfileprovider"
+99-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:27:13-70
+100            android:exported="false"
+100-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:28:13-37
+101            android:grantUriPermissions="true" >
+101-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:29:13-47
+102            <meta-data
+102-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:30:13-32:60
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+103-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:31:17-67
+104                android:resource="@xml/stream_filepaths" />
+104-->[io.getstream:stream-chat-android-ui-common:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\7ee99bac12e410d48707a9629a8cff4d\transformed\stream-chat-android-ui-common-5.0.2\AndroidManifest.xml:32:17-57
+105        </provider>
+106
+107        <activity
+107-->[com.karumi:dexter:6.2.3] C:\Users\gajig\.gradle\caches\transforms-3\25bbaf7cf44d9be9c05743f150488e99\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+108            android:name="com.karumi.dexter.DexterActivity"
+108-->[com.karumi:dexter:6.2.3] C:\Users\gajig\.gradle\caches\transforms-3\25bbaf7cf44d9be9c05743f150488e99\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+109            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+109-->[com.karumi:dexter:6.2.3] C:\Users\gajig\.gradle\caches\transforms-3\25bbaf7cf44d9be9c05743f150488e99\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+110
+111        <receiver
+111-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:13:9-21:20
+112            android:name="io.getstream.chat.android.client.receivers.NotificationMessageReceiver"
+112-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:14:13-98
+113            android:enabled="true"
+113-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:15:13-35
+114            android:exported="false" >
+114-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:16:13-37
+115            <intent-filter>
+115-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:17:13-20:29
+116                <action android:name="com.getstream.sdk.chat.READ" />
+116-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:18:17-70
+116-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:18:25-67
+117                <action android:name="com.getstream.sdk.chat.REPLY" />
+117-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:19:17-71
+117-->[io.getstream:stream-chat-android-client:5.0.2] C:\Users\gajig\.gradle\caches\transforms-3\d2356dc9c09a3d3dace87a2de137e090\transformed\stream-chat-android-client-5.0.2\AndroidManifest.xml:19:25-68
+118            </intent-filter>
+119        </receiver>
+120
+121        <service
+121-->[com.google.firebase:firebase-database:20.0.3] C:\Users\gajig\.gradle\caches\transforms-3\e375542a44f69bc050081dc0cc816f13\transformed\firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+122            android:name="com.google.firebase.components.ComponentDiscoveryService"
+122-->[com.google.firebase:firebase-database:20.0.3] C:\Users\gajig\.gradle\caches\transforms-3\e375542a44f69bc050081dc0cc816f13\transformed\firebase-database-20.0.3\AndroidManifest.xml:30:13-84
+123            android:directBootAware="true"
+123-->[com.google.firebase:firebase-common:20.0.0] C:\Users\gajig\.gradle\caches\transforms-3\847f56c540cb8ff69280165c6bee7444\transformed\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+124            android:exported="false" >
+124-->[com.google.firebase:firebase-database:20.0.3] C:\Users\gajig\.gradle\caches\transforms-3\e375542a44f69bc050081dc0cc816f13\transformed\firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+125            <meta-data
+125-->[com.google.firebase:firebase-database:20.0.3] C:\Users\gajig\.gradle\caches\transforms-3\e375542a44f69bc050081dc0cc816f13\transformed\firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+126-->[com.google.firebase:firebase-database:20.0.3] C:\Users\gajig\.gradle\caches\transforms-3\e375542a44f69bc050081dc0cc816f13\transformed\firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-database:20.0.3] C:\Users\gajig\.gradle\caches\transforms-3\e375542a44f69bc050081dc0cc816f13\transformed\firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+128            <meta-data
+128-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\681cfc46608c452f40c9918d3a39d6a5\transformed\play-services-measurement-api-20.1.0\AndroidManifest.xml:30:13-32:85
+129                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+129-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\681cfc46608c452f40c9918d3a39d6a5\transformed\play-services-measurement-api-20.1.0\AndroidManifest.xml:31:17-139
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\681cfc46608c452f40c9918d3a39d6a5\transformed\play-services-measurement-api-20.1.0\AndroidManifest.xml:32:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\gajig\.gradle\caches\transforms-3\b02c87095ecf561bbb85e6a83144fbdc\transformed\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+132                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+132-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\gajig\.gradle\caches\transforms-3\b02c87095ecf561bbb85e6a83144fbdc\transformed\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\gajig\.gradle\caches\transforms-3\b02c87095ecf561bbb85e6a83144fbdc\transformed\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+134        </service>
+135
+136        <receiver
+136-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:29:9-33:20
+137            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+137-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:30:13-85
+138            android:enabled="true"
+138-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:31:13-35
+139            android:exported="false" >
+139-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:32:13-37
+140        </receiver>
+141
+142        <service
+142-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:35:9-38:40
+143            android:name="com.google.android.gms.measurement.AppMeasurementService"
+143-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:36:13-84
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:37:13-35
+145            android:exported="false" />
+145-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:38:13-37
+146        <service
+146-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:39:9-43:72
+147            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+147-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:40:13-87
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:41:13-35
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:42:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" />
+150-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\gajig\.gradle\caches\transforms-3\f433f8fcbf3de5b774a81a52c5ade9e2\transformed\play-services-measurement-20.1.0\AndroidManifest.xml:43:13-69
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:20.0.0] C:\Users\gajig\.gradle\caches\transforms-3\847f56c540cb8ff69280165c6bee7444\transformed\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:20.0.0] C:\Users\gajig\.gradle\caches\transforms-3\847f56c540cb8ff69280165c6bee7444\transformed\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+154            android:authorities="com.cookandroid.counselingapp.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:20.0.0] C:\Users\gajig\.gradle\caches\transforms-3\847f56c540cb8ff69280165c6bee7444\transformed\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:20.0.0] C:\Users\gajig\.gradle\caches\transforms-3\847f56c540cb8ff69280165c6bee7444\transformed\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+156            android:exported="false"
+156-->[com.google.firebase:firebase-common:20.0.0] C:\Users\gajig\.gradle\caches\transforms-3\847f56c540cb8ff69280165c6bee7444\transformed\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+157            android:initOrder="100" />
+157-->[com.google.firebase:firebase-common:20.0.0] C:\Users\gajig\.gradle\caches\transforms-3\847f56c540cb8ff69280165c6bee7444\transformed\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+158
+159        <activity
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gajig\.gradle\caches\transforms-3\81fae57dba6be456999e0c925332e850\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+160            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+160-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gajig\.gradle\caches\transforms-3\81fae57dba6be456999e0c925332e850\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gajig\.gradle\caches\transforms-3\81fae57dba6be456999e0c925332e850\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+162            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+162-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\gajig\.gradle\caches\transforms-3\81fae57dba6be456999e0c925332e850\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+163
+164        <meta-data
+164-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\gajig\.gradle\caches\transforms-3\287b2485654d09f75e41efab20a6f399\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+165            android:name="com.google.android.gms.version"
+165-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\gajig\.gradle\caches\transforms-3\287b2485654d09f75e41efab20a6f399\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+166            android:value="@integer/google_play_services_version" />
+166-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\gajig\.gradle\caches\transforms-3\287b2485654d09f75e41efab20a6f399\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+167
+168        <service
+168-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+169            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+169-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+170            android:directBootAware="false"
+170-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+171            android:enabled="@bool/enable_system_alarm_service_default"
+171-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+172            android:exported="false" />
+172-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+173        <service
+173-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+174            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+174-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+176            android:enabled="@bool/enable_system_job_service_default"
+176-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+177            android:exported="true"
+177-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+178            android:permission="android.permission.BIND_JOB_SERVICE" />
+178-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+179        <service
+179-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+180            android:name="androidx.work.impl.foreground.SystemForegroundService"
+180-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+182            android:enabled="@bool/enable_system_foreground_service_default"
+182-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+183            android:exported="false" />
+183-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+184
+185        <receiver
+185-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+186            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+186-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+187            android:directBootAware="false"
+187-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+188            android:enabled="true"
+188-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+189            android:exported="false" />
+189-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+190        <receiver
+190-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+191            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+191-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+192            android:directBootAware="false"
+192-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+193            android:enabled="false"
+193-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+194            android:exported="false" >
+194-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+195            <intent-filter>
+195-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+196                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+196-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+196-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+197                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+197-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+197-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+198            </intent-filter>
+199        </receiver>
+200        <receiver
+200-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+201            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+201-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+203            android:enabled="false"
+203-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+204            android:exported="false" >
+204-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+205            <intent-filter>
+205-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+206                <action android:name="android.intent.action.BATTERY_OKAY" />
+206-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+206-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+207                <action android:name="android.intent.action.BATTERY_LOW" />
+207-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+207-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+208            </intent-filter>
+209        </receiver>
+210        <receiver
+210-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+211            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+211-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+212            android:directBootAware="false"
+212-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+213            android:enabled="false"
+213-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+214            android:exported="false" >
+214-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+215            <intent-filter>
+215-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+216                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+216-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+216-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+217                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+217-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+217-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+218            </intent-filter>
+219        </receiver>
+220        <receiver
+220-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+221            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+221-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+222            android:directBootAware="false"
+222-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+223            android:enabled="false"
+223-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+224            android:exported="false" >
+224-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+225            <intent-filter>
+225-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+226                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+227            </intent-filter>
+228        </receiver>
+229        <receiver
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+230            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+231            android:directBootAware="false"
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+232            android:enabled="false"
+232-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+233            android:exported="false" >
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+234            <intent-filter>
+234-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+235                <action android:name="android.intent.action.BOOT_COMPLETED" />
+235-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+235-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+236                <action android:name="android.intent.action.TIME_SET" />
+236-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+236-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+237                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+237-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+237-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+238            </intent-filter>
+239        </receiver>
+240        <receiver
+240-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+241            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+241-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+243            android:enabled="@bool/enable_system_alarm_service_default"
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+244            android:exported="false" >
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+245            <intent-filter>
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+246                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+247            </intent-filter>
+248        </receiver>
+249        <receiver
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+250            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+252            android:enabled="true"
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+253            android:exported="true"
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+254            android:permission="android.permission.DUMP" >
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+255            <intent-filter>
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+256                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\gajig\.gradle\caches\transforms-3\0321c4d84ceab430fba8cd11180eb3fd\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+257            </intent-filter>
+258        </receiver>
+259
+260        <service
+260-->[androidx.room:room-runtime:2.4.0] C:\Users\gajig\.gradle\caches\transforms-3\5aaae1069248c08fa82ef168c1d5225f\transformed\room-runtime-2.4.0\AndroidManifest.xml:25:9-28:40
+261            android:name="androidx.room.MultiInstanceInvalidationService"
+261-->[androidx.room:room-runtime:2.4.0] C:\Users\gajig\.gradle\caches\transforms-3\5aaae1069248c08fa82ef168c1d5225f\transformed\room-runtime-2.4.0\AndroidManifest.xml:26:13-74
+262            android:directBootAware="true"
+262-->[androidx.room:room-runtime:2.4.0] C:\Users\gajig\.gradle\caches\transforms-3\5aaae1069248c08fa82ef168c1d5225f\transformed\room-runtime-2.4.0\AndroidManifest.xml:27:13-43
+263            android:exported="false" />
+263-->[androidx.room:room-runtime:2.4.0] C:\Users\gajig\.gradle\caches\transforms-3\5aaae1069248c08fa82ef168c1d5225f\transformed\room-runtime-2.4.0\AndroidManifest.xml:28:13-37
+264    </application>
+265
+266</manifest>

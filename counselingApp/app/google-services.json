@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806173370809",
+    "firebase_url": "https://chatapp-5dad0-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-5dad0",
+    "storage_bucket": "chatapp-5dad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806173370809:android:ea6f5df05ee889d1e12e68",
+        "android_client_info": {
+          "package_name": "com.cookandroid.counselingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806173370809-7euatp7pnm4trsr7abug7ts6aivm38gb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.counselingapp",
+            "certificate_hash": "976d4994bbabd702cabdabbb8a03f923f9bd3709"
+          }
+        },
+        {
+          "client_id": "806173370809-vk8c9fs68nis7u6eipemsioh6ba51meg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc6_ZRwQZw2cNwqO4nHCuxTTMQGy8HggA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806173370809-vk8c9fs68nis7u6eipemsioh6ba51meg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

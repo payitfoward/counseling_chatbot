@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <plurals name="stream_ui_channel_list_member_info">
+    <item quantity="one">"%1d Miembro, %2d Conectados"</item>
+    <item quantity="other">"%1d Miembros, %2d Conectados"</item>
+  </plurals>
+    <plurals name="stream_ui_message_list_header_member_count">
+    <item quantity="one">"%1d Miembro"</item>
+    <item quantity="other">"%1d Miembros"</item>
+  </plurals>
+    <plurals name="stream_ui_message_list_header_typing_users">
+    <item quantity="one">"%1$s está escribiendo"</item>
+    <item quantity="other">"%1$s y %2$d más están escribiendo"</item>
+  </plurals>
+    <plurals name="stream_ui_message_list_message_reactions">
+    <item quantity="one">"%d Reación de mensaje"</item>
+    <item quantity="other">"%d Reaciones de mensaje"</item>
+  </plurals>
+    <plurals name="stream_ui_message_list_thread_reply">
+    <item quantity="one">"Respuesta al hilo"</item>
+    <item quantity="other">"%1$d Respuestas en el hilo"</item>
+  </plurals>
+    <plurals name="stream_ui_message_list_thread_separator">
+    <item quantity="one">"%d Respuesta"</item>
+    <item quantity="other">"%d Respuestas"</item>
+  </plurals>
+    <plurals name="stream_ui_search_results_count">
+    <item quantity="one">"1 resultado"</item>
+    <item quantity="other">"%d resultados"</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Habilitar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites Servicios de Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Habilita Servicios de Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Descargar Servicios de Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilidad Servicios de Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Error de Servicios de Google Play"</string>
+    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"No es posible ejecutar la aplicación <ns1:g id="APP_NAME">%1$s</ns1:g> sin los Servicios de Google Play, que no son compatibles con tu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no actualices Servicios de Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Actualiza Servicios de Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stream_chat_error_notification_group_summary_content_text">"Has recibido un nuevos mensajes"</string>
+    <string name="stream_chat_error_notification_group_summary_title">"Mensajes de Chat"</string>
+    <string name="stream_chat_load_notification_data_title">"Obteniendo datos de la notificación"</string>
+    <string name="stream_chat_notification_channel_name">"Nuevo Mensaje"</string>
+    <string name="stream_chat_notification_content">"Has recibido un nuevo mensaje"</string>
+    <string name="stream_chat_notification_empty_username">"Usuario sin nombre"</string>
+    <string name="stream_chat_notification_group_summary_content_text">"Has recibido un nuevo mensaje"</string>
+    <string name="stream_chat_notification_read">"Marcar como leído"</string>
+    <string name="stream_chat_notification_reply">"Contestar"</string>
+    <string name="stream_chat_notification_title">"Mensaje de Chat"</string>
+    <string name="stream_chat_notification_type_hint">"Escribe un mensaje"</string>
+    <string name="stream_chat_other_notifications_channel_name">"Otras notificaciones"</string>
+    <string name="stream_ui_attachment_gallery_count">"%1$d de %2$d"</string>
+    <string name="stream_ui_attachment_gallery_date">"Enviado el %1$s a las %2$s"</string>
+    <string name="stream_ui_attachment_gallery_delete">"Eliminar"</string>
+    <string name="stream_ui_attachment_gallery_overview_title">"Fotos"</string>
+    <string name="stream_ui_attachment_gallery_reply">"Responder"</string>
+    <string name="stream_ui_attachment_gallery_save_image">"Guardar imagen"</string>
+    <string name="stream_ui_attachment_gallery_share">"Compartir Imagen"</string>
+    <string name="stream_ui_attachment_gallery_show_in_chat">"Mostrar en el chat"</string>
+    <string name="stream_ui_channel_list_delete_channel">"Eliminar conversación"</string>
+    <string name="stream_ui_channel_list_delete_confirmation_message">"¿Estás seguro de que quieres eliminar permanentemente esta conversación?"</string>
+    <string name="stream_ui_channel_list_delete_confirmation_negative_button">"Cancelar"</string>
+    <string name="stream_ui_channel_list_delete_confirmation_positive_button">"Eliminar"</string>
+    <string name="stream_ui_channel_list_delete_confirmation_title">"Eliminar Canal"</string>
+    <string name="stream_ui_channel_list_dismiss_dialog">"Cancelar"</string>
+    <string name="stream_ui_channel_list_empty">"No hay canales disponibles"</string>
+    <string name="stream_ui_channel_list_error_delete_channel">"Fallo al eliminar el canal"</string>
+    <string name="stream_ui_channel_list_error_hide_channel">"Fallo al ocultar el canal"</string>
+    <string name="stream_ui_channel_list_error_leave_channel">"Fallo al salir del canal"</string>
+    <string name="stream_ui_channel_list_header_disconnected">"Esperando conexión de red"</string>
+    <string name="stream_ui_channel_list_header_offline">"Sin Conexión"</string>
+    <string name="stream_ui_channel_list_leave_channel">"Salir del grupo"</string>
+    <string name="stream_ui_channel_list_untitled_channel">"Canal sin nombre"</string>
+    <string name="stream_ui_channel_list_view_info">"Ver información"</string>
+    <string name="stream_ui_channel_list_you">"Tú"</string>
+    <string name="stream_ui_mention_list_empty">"No hay menciones todavía…"</string>
+    <string name="stream_ui_mention_list_error">"Ocurrió un error"</string>
+    <string name="stream_ui_message_input_camera_access">"Permitir acceso a la cámara"</string>
+    <string name="stream_ui_message_input_capture_media">"Tomar foto o vídeo"</string>
+    <string name="stream_ui_message_input_error_file_large_size">"El fichero es demasiado grande - Máximo %dMB."</string>
+    <string name="stream_ui_message_input_error_file_size">"Fichero demasiado grande"</string>
+    <string name="stream_ui_message_input_error_max_attachments_count_exceeded">"No es posible añadir más de %1$d archivos adjuntos."</string>
+    <string name="stream_ui_message_input_error_max_length">"Tamaño máximo de mensaje (%1$d) excedido."</string>
+    <string name="stream_ui_message_input_files_access">"Permitir acceso a tus ficheros"</string>
+    <string name="stream_ui_message_input_gallery_access">"Permitir acceso a tu galería"</string>
+    <string name="stream_ui_message_input_hint">"Escribe algo aquí"</string>
+    <string name="stream_ui_message_input_instant_commands">"Comandos instantáneos"</string>
+    <string name="stream_ui_message_input_no_files">"No hay fotos ni vídeos"</string>
+    <string name="stream_ui_message_input_only_attachments_hint">"Añadir un comentario o enviar"</string>
+    <string name="stream_ui_message_input_permission_camera_message">"Los permisos de Cámar y acceso a almacenamiento son necesarios para tomar fotos y vídeos"</string>
+    <string name="stream_ui_message_input_permission_camera_title">"Permiso de Cámara y acceso a almacenamiento"</string>
+    <string name="stream_ui_message_input_permission_setting_message">"Habilitar los permisos en los ajustes de la aplicación"</string>
+    <string name="stream_ui_message_input_permission_storage_message">"El permiso de acceso al almacenamiento es necesario para poderenviar y guardar fotos, vídeos, música y otros ficheros"</string>
+    <string name="stream_ui_message_input_permission_storage_title">"Permiso de acceso a almacenamiento"</string>
+    <string name="stream_ui_message_input_permissions_setting_button">"Ajustes"</string>
+    <string name="stream_ui_message_input_recent_files">"Ficheros recientes"</string>
+    <string name="stream_ui_message_input_reply">"Contestar al mensje"</string>
+    <string name="stream_ui_message_input_send_as_direct_message">"También enviar cómo mensaje directo"</string>
+    <string name="stream_ui_message_input_send_to_channel">"También enviar al canal"</string>
+    <string name="stream_ui_message_input_slow_mode_hint">"Modo lento activado"</string>
+    <string name="stream_ui_message_list_attachment_display_error">"Error. El fichero no se puede mostrar"</string>
+    <string name="stream_ui_message_list_attachment_invalid_mime_type">"Algo salió mal. No se pudo abrir el archivo adjunto: %1$s"</string>
+    <string name="stream_ui_message_list_attachment_invalid_url">"No se pudo cargar debido a que es una URL invalida."</string>
+    <string name="stream_ui_message_list_attachment_load_failed">"No se pudo cargar debido a un error inesperado."</string>
+    <string name="stream_ui_message_list_attachment_upload_complete">"Subida completada, procesando…"</string>
+    <string name="stream_ui_message_list_attachment_uploading">"Subiendo %1$d / %2$d …"</string>
+    <string name="stream_ui_message_list_block_user">"Bloquear usuario"</string>
+    <string name="stream_ui_message_list_copy_message">"Copiar Mensaje"</string>
+    <string name="stream_ui_message_list_delete_confirmation_message">"¿Estás seguro de que quieres eliminar permanentemente el mensaje?"</string>
+    <string name="stream_ui_message_list_delete_confirmation_negative_button">"Cancelar"</string>
+    <string name="stream_ui_message_list_delete_confirmation_positive_button">"Eliminar"</string>
+    <string name="stream_ui_message_list_delete_confirmation_title">"Eliminar mensaje"</string>
+    <string name="stream_ui_message_list_delete_message">"Eliminar mensaje"</string>
+    <string name="stream_ui_message_list_deleted_message">"Mensaje eliminado"</string>
+    <string name="stream_ui_message_list_download_started">"Descarga comenzada"</string>
+    <string name="stream_ui_message_list_edit_message">"Editar Mensaje"</string>
+    <string name="stream_ui_message_list_empty">"Sin mensajes"</string>
+    <string name="stream_ui_message_list_ephemeral_message">"Sólo visible para ti"</string>
+    <string name="stream_ui_message_list_error_block_user">"Fallo al bloquear al usuario"</string>
+    <string name="stream_ui_message_list_error_delete_message">"Fallo al eliminar el mensaje"</string>
+    <string name="stream_ui_message_list_error_flag_message">"Fallo al marcar el mensaje"</string>
+    <string name="stream_ui_message_list_error_mute_user">"Fallo al silenciar al usuario"</string>
+    <string name="stream_ui_message_list_error_pin_message">"Fallo al fijar el mensaje"</string>
+    <string name="stream_ui_message_list_error_unmute_user">"Fallo al dejar de silenciar al usuario"</string>
+    <string name="stream_ui_message_list_error_unpin_message">"Fallo al desfijar el mensaje"</string>
+    <string name="stream_ui_message_list_flag_confirmation_message">"¿Quieres enviar una copia de este mensaje al moderador para una mejor investigación?"</string>
+    <string name="stream_ui_message_list_flag_confirmation_negative_button">"Cancelar"</string>
+    <string name="stream_ui_message_list_flag_confirmation_positive_button">"Marcar"</string>
+    <string name="stream_ui_message_list_flag_confirmation_title">"Marcar Mensaje"</string>
+    <string name="stream_ui_message_list_flag_message">"Marcar Mensaje"</string>
+    <string name="stream_ui_message_list_giphy_cancel">"Cancelar"</string>
+    <string name="stream_ui_message_list_giphy_send">"Enviar"</string>
+    <string name="stream_ui_message_list_giphy_shuffle">"Aleatorio"</string>
+    <string name="stream_ui_message_list_header_back_button_content_description">"Botón atrás"</string>
+    <string name="stream_ui_message_list_header_disconnected">"Buscando conexión de red"</string>
+    <string name="stream_ui_message_list_header_member_count_online">"%1$s, %2$d Conectados"</string>
+    <string name="stream_ui_message_list_header_offline">"Desconectado…"</string>
+    <string name="stream_ui_message_list_header_retry">"Probar de nuevo"</string>
+    <string name="stream_ui_message_list_header_thread_subtitle">"con %1$s"</string>
+    <string name="stream_ui_message_list_header_thread_title">"Respuestas en el hilo"</string>
+    <string name="stream_ui_message_list_header_untitled_channel">"Canal sin nombre"</string>
+    <string name="stream_ui_message_list_mute_user">"Silenciar usuario"</string>
+    <string name="stream_ui_message_list_pin_message">"Fijar a la conversación"</string>
+    <string name="stream_ui_message_list_pinned_message">"Fijado por %1$s"</string>
+    <string name="stream_ui_message_list_pinned_message_you">"Tú"</string>
+    <string name="stream_ui_message_list_reply">"Contestar"</string>
+    <string name="stream_ui_message_list_resend_message">"Reenviar"</string>
+    <string name="stream_ui_message_list_thread_reply">"Contestar en el hilo"</string>
+    <string name="stream_ui_message_list_unmute_user">"Dejar de silenciar al usuario"</string>
+    <string name="stream_ui_message_list_unpin_message">"Desfijar de la conversación"</string>
+    <string name="stream_ui_message_preview_sender">"&lt;b>%1$s&lt;/b> en &lt;b>%2$s&lt;/b>"</string>
+    <string name="stream_ui_pinned_message_list_empty_description"><![CDATA[Mantenga presionado un mensaje importante y elija <b> Fijar a la conversación </b>]]></string>
+    <string name="stream_ui_pinned_message_list_empty_title">"No hay mensajes fijados"</string>
+    <string name="stream_ui_pinned_message_list_results_error">"Ocurrió un error"</string>
+    <string name="stream_ui_search_input_clear_icon_content_description">"Limpiar"</string>
+    <string name="stream_ui_search_input_hint">"Buscar"</string>
+    <string name="stream_ui_search_input_search_icon_content_description">"Buscar"</string>
+    <string name="stream_ui_search_results_empty">"No se encontraron resultados para \"%1$s\""</string>
+    <string name="stream_ui_search_results_error">"Ocurrió un error"</string>
+    <string name="stream_ui_user_status_last_seen">"Ultima vez visto %1$s"</string>
+    <string name="stream_ui_user_status_last_seen_just_now">"Última vez visto justo ahora"</string>
+    <string name="stream_ui_user_status_online">"Conectado"</string>
+    <string name="stream_ui_yesterday">"Ayer"</string>
+</resources>

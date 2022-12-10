@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:paddingLeft="15dp"
+    android:id="@+id/msgLinear"
+    android:paddingRight="15dp"
+    android:background="#F6F6F6"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6F6F6"
+        >
+
+        <ImageView
+            android:id="@id/profile"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:src="@drawable/bot" />
+
+
+        <TextView
+            android:id="@+id/chatBot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/profile"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/profile"
+            android:paddingBottom="4dp"
+            android:text="챗봇" />
+
+        <TextView
+            android:id="@+id/chatBot_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chatBot"
+            android:layout_alignLeft="@+id/chatBot"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/their_message"
+            android:elevation="3dp"
+            android:maxWidth="240dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </RelativeLayout>
+</LinearLayout>
+
+

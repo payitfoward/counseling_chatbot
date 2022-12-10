@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.cookandroid.counselingapp-mergeReleaseResources-50:/layout/msg_item.xml",
+        "source": "com.cookandroid.counselingapp-main-52:/layout/msg_item.xml"
+    },
+    {
+        "merged": "com.cookandroid.counselingapp-mergeReleaseResources-50:/layout/chat_message.xml",
+        "source": "com.cookandroid.counselingapp-main-52:/layout/chat_message.xml"
+    },
+    {
+        "merged": "com.cookandroid.counselingapp-mergeReleaseResources-50:/layout/activity_main.xml",
+        "source": "com.cookandroid.counselingapp-main-52:/layout/activity_main.xml"
+    }
+]

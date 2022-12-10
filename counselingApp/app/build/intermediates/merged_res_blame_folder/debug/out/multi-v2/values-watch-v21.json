@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cookandroid.counselingapp-mergeDebugResources-49:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gajig\\.gradle\\caches\\transforms-3\\bebf8a63119f3052be1885fa1f5b6c68\\transformed\\appcompat-1.5.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}
