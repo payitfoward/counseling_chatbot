@@ -1,4 +1,4 @@
-# counseling_chatbot with Wellness Dataset
+# Counseling_Chatbot with Wellness Dataset
 
 ## Award
 1st prize in AI for Future Society 2022. (./poster.png)
