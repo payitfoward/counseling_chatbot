@@ -13,7 +13,7 @@
 
 3. Run train_bert.py
 
-4. Run roberta_wellness_chatbot
+4. Run roberta_wellness_chatbot.py
 
 ### APP (will be rewritten by gaeun)
 
