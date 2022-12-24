@@ -1,4 +1,4 @@
-# Counseling_Chatbot with Wellness Dataset
+# Counseling Chatbot with Wellness Dataset
 
 ## Award
 1st prize in AI for Future Society 2022. (./poster.png)
@@ -33,6 +33,7 @@
 ## Future work
 
 - make graph for hierarchical class
+- Auto build graph for unseem data ( Now, Just Replace Embedding of last node. So, prediction task is abnormal )
 
 ## Reference
 
