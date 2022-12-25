@@ -1,7 +1,7 @@
 # Counseling Chatbot with Wellness Dataset
 
 ## Award
-1st prize in AI for Future Society 2022. (./poster.png)
+[1st prize in AI for Future Society 2022](https://github.com/payitfoward/counseling_chatbot/blob/main/%EC%83%81%EC%9E%A5.jpg)
 
 ## How to Use
 
@@ -21,14 +21,14 @@
 
 ## Requirements
 
-- dgl-cu113==0.9.1.post1
-- ignite==1.1.0
-- python==3.6.9
-- torch==1.10.0+cu113
-- scikit-learn==0.24.2
-- transformers==4.18.0
-- numpy=<1.19.5
-- networkx==2.5.1
+- `dgl-cu113 == 0.9.1.post1`
+- `ignite == 1.1.0`
+- `python == 3.6.9`
+- `torch == 1.10.0+cu113`
+- `scikit-lear n== 0.24.2`
+- `transformers == 4.18.0`
+- `numpy =< 1.19.5`
+- `networkx == 2.5.1`
 
 ## Future work
 
