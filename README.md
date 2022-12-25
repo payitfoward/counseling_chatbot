@@ -41,6 +41,24 @@
 
 - [웰니스 대화 스크립트 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?currMenu=120&topMenu=100&aihubDataSe=extrldata&dataSetSn=267)
 
+### Backbone Model
+
+- [klue/roberta-base](https://huggingface.co/klue/roberta-base)
+
 ### Citation
 
 - [BertGCN: Transductive Text Classification by Combining GCN and BERT](https://arxiv.org/abs/2105.05727)
+
+## Workers
+
+### [노영준](https://github.com/youngjun-99)
+- Flask API
+- Change build graph method
+- Preprocessing
+- Finetune KLUE/roberta-base
+
+### [이가은](https://github.com/gaeun5744)
+- Develop Application
+
+### [박정원](https://github.com/jardin00)
+- Finetune RoBERTaGCN 
