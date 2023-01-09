@@ -15,9 +15,19 @@
 
 4. Run roberta_wellness_chatbot.py
 
-### APP (will be rewritten by gaeun)
-
+### APP
 1. Build ./counselingApp (have to check your server ip)
+
+2. After entering the message, press the send button and the chatbot answers.
+<img src="https://user-images.githubusercontent.com/92314556/211301855-308256b7-df7a-4d11-a095-93e57c968e75.png"  width="30%" />
+
+#### Skill Stack
+- Firebase
+- HTTP connect
+- Asychronous
+- Recyclerview
+
+
 
 ## Requirements
 
