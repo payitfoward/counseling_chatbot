@@ -35,14 +35,14 @@
 - `ignite == 1.1.0`
 - `python == 3.6.9`
 - `torch == 1.10.0+cu113`
-- `scikit-lear n== 0.24.2`
+- `scikit-learn== 0.24.2`
 - `transformers == 4.18.0`
 - `numpy =< 1.19.5`
 - `networkx == 2.5.1`
 
 ## Future work
 
-- make graph for hierarchical class
+- Make graph for hierarchical class
 - Auto build graph for unseem data ( Now, Just Replace Embedding of last node. So, prediction task is abnormal )
 
 ## Reference
